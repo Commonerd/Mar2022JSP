@@ -26,7 +26,7 @@ public class NowServlet extends HttpServlet {
 	
 	} //리스폰드에 데이터를 쓸 수 있는 객체가 만들어진다. 자바에서 제공하는 입출력스트링임(getWriter). 해당객체에 내용을 출력할 수 있는 애. 프로젝트에 접근할 수 있는 경로를 꺼내옴. 
 
-    @Override
+    @Override	
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
